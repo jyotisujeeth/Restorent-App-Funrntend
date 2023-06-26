@@ -1,0 +1,148 @@
+#header{
+    height: 60px;
+    
+    background-color: rgb(240, 198, 143);
+}
+#icon{
+    margin-left: 1%;
+    position: absolute;
+    margin-top: -1%;
+    color: rgb(56, 11, 0);
+}
+#Social{
+    float: right;
+    margin-right: 1%;
+}
+a{
+    text-decoration: none;
+}
+.slogo{
+    height: 45px;
+    width: 45px;
+    margin-top: 6px;
+}
+body{
+    margin: auto;
+}
+#search{
+    height: 400px;
+    background-image: url("Mastifood.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+    
+    
+    
+}/* Quick Search */
+#QuickSearch{
+    width:75%;
+    margin-left:1%;
+    margin-top:3%;
+    display: inline-block
+}
+
+#QuickHeading{
+    display:block;
+    color:#ac2e31;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+
+#QuickSubHeading{
+    line-height: 2;
+    color:gray;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.ComponentSubHeading1{
+    margin-top: -55px;
+}
+.ComponentSubHeading2{
+    margin-top: -238px;
+}
+
+.tileContainer{
+    height:180px;
+    width:30%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 2%;
+    box-shadow: 10px 20px 15px gray;
+}
+
+.tileComponent1{
+    width:50%;
+    float: left;
+    height:180px;
+}
+
+.tileComponent1 >img{
+    width:200%;
+    height:180px;
+}
+.tileContainer1{
+    height:180px;
+    width:30%;
+    float: right;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: -28%;
+    box-shadow: 10px 20px 15px gray;
+}
+.tileComponent2 >img{
+    width:100%;
+    height:180px;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(46, 30, 18);
+    border-radius: 50%;
+    margin: auto;
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 1%;
+    font-size: 80px;
+    color: white;
+    
+    
+}
+#logo > span{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 16%;
+}
+#Caption {
+    position: absolute;
+    margin-left: 24%;
+    color: rgb(255, 255, 255);
+    font-size: 180%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    margin-top: 150px;
+    font-weight:900;
+    text-shadow: 8px 8px 10px#000000;
+}
+#Caption > shadow{
+    text-shadow: 2px 2px 8px #FF0000;
+}
+#dropdown{
+    height: 50px;
+    width: 112%;
+    position: absolute;
+    margin-left: -6%;
+    margin-top: -2%;
+}
+select{
+    height: 50px;
+    width: 25%;
+    text-align: center;
+}
+.restaurantSelect{
+    width: 75%;
+    position: absolute;
+}
